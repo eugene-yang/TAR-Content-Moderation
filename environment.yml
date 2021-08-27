@@ -1,0 +1,13 @@
+name: tarcm
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - cython
+  - numpy
+  - pandas
+  - scipy
+  - tqdm
+  - pip
+  - pip:
+    - git+https://github.com/eugene-yang/libact.git@e20b811feec5bcd1565e292891832e2c2f2f761d
